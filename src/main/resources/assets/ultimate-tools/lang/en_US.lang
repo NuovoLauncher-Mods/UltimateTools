@@ -1,0 +1,49 @@
+item.ultimate-tools_lead_pickaxe.name=Lead Pickaxe
+item.ultimate-tools_lead_axe.name=Lead Axe
+item.ultimate-tools_lead_sword.name=Lead Sword
+item.ultimate-tools_lead_hoe.name=Lead Hoe
+item.ultimate-tools_lead_shovel.name=Lead Shovel
+
+item.ultimate-tools_tin_pickaxe.name=Tin Pickaxe
+item.ultimate-tools_tin_axe.name=Tin Axe
+item.ultimate-tools_tin_sword.name=Tin Sword
+item.ultimate-tools_tin_hoe.name=Tin Hoe
+item.ultimate-tools_tin_shovel.name=Tin Shovel
+
+item.ultimate-tools_galium_pickaxe.name=Galium Pickaxe
+item.ultimate-tools_galium_axe.name=Galium Axe
+item.ultimate-tools_galium_sword.name=Galium Sword
+item.ultimate-tools_galium_hoe.name=Galium Hoe
+item.ultimate-tools_galium_shovel.name=Galium Shovel
+
+item.ultimate-tools_sodium_pickaxe.name=Sodium Pickaxe
+item.ultimate-tools_sodium_axe.name=Sodium Axe
+item.ultimate-tools_sodium_sword.name=Sodium Sword
+item.ultimate-tools_sodium_hoe.name=Sodium Hoe
+item.ultimate-tools_sodium_shovel.name=Sodium Shovel
+
+item.ultimate-tools_potassium_pickaxe.name=Potassium Pickaxe
+item.ultimate-tools_potassium_axe.name=Potassium Axe
+item.ultimate-tools_potassium_sword.name=Potassium Sword
+item.ultimate-tools_potassium_hoe.name=Potassium Hoe
+item.ultimate-tools_potassium_shovel.name=Potassium Shovel
+
+item.ultimate-tools_lead_ingot.name=Lead Ingot
+item.ultimate-tools_tin_ingot.name=Tin Ingot
+item.ultimate-tools_galium_ingot.name=Galium Ingot
+item.ultimate-tools_sodium_ingot.name=Sodium Ingot
+item.ultimate-tools_potassium_ingot.name=Potassium Ingot
+
+tile.ultimate-tools_lead_ore.name=Lead Ore
+tile.ultimate-tools_tin_ore.name=Tin Ore
+tile.ultitmate-tools_galium_ore.name=Galium Ore
+tile.ultimate-tools_sodium_ore.name=Sodium Ore
+tile.ultimate-tools_potassium_ore.name=Potassium Ore
+
+itemGroup.UltimateTools Swords=Ultimate Tools Swords
+itemGroup.UltimateTools Pickaxes=Ultimate Tools Pickaxes
+itemGroup.UltimateTools Axes=Ultimate Tools Axes
+itemGroup.UltimateTools Hoes=Ultimate Tools Hoes
+itemGroup.UltimateTools Items=Ultimate Tools Items
+itemGroup.UltimateTools Ores=Ultimate Tools Ores
+itemGroup.UltimateTools Shovels=Ultimate Tools Shovels
