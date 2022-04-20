@@ -35,6 +35,17 @@ public class UltimateTools {
     public static Block galium_ore;
     public static Block sodium_ore;
     public static Block potassium_ore;
+    public static Block cesium_ore;
+
+    
+    // Sodium Tools
+    public static Item cesium_ingot;
+    public static Item cesium_sword;
+    public static Item cesium_pickaxe;
+    public static Item cesium_axe;
+    public static Item cesium_hoe;
+    public static Item cesium_shovel;
+    ToolMaterial cesium = EnumHelper.addToolMaterial("cesium", 3, 075, 0.66F, 055F, 3);
 
     // Sodium Tools
     public static Item sodium_ingot;
@@ -103,20 +114,21 @@ public class UltimateTools {
                 UpdateGetter.getUpdate(ver_info[0]);
         }
         
-        
-        
         // Ores
-        lead_ore = new BlockOreGeneric("lead_ore", 1);
-        tin_ore = new BlockOreGeneric("tin_ore", 1);
-        galium_ore = new BlockOreGeneric("galium_ore", 1);
-        sodium_ore = new BlockOreGeneric("sodium_ore", 2);
-        potassium_ore = new BlockOreGeneric("potassium_ore", 2);
+        lead_ore = new BlockOreGeneric("lead_ore", 1, 3F, 7F);
+        tin_ore = new BlockOreGeneric("tin_ore", 1, 3F, 7F);
+        galium_ore = new BlockOreGeneric("galium_ore", 1, 3F, 7F);
+        sodium_ore = new BlockOreGeneric("sodium_ore", 2, 3F, 7F);
+        potassium_ore = new BlockOreGeneric("potassium_ore", 2, 3F, 7F);
+        cesium_ore = new BlockOreGeneric("cesium_ore", 2, 3F, 7F);
 
         GameRegistry.registerBlock(lead_ore, "LeadOre");
         GameRegistry.registerBlock(tin_ore, "TinOre");
         GameRegistry.registerBlock(galium_ore, "GaliumOre");
         GameRegistry.registerBlock(sodium_ore, "SodiumOre");
         GameRegistry.registerBlock(potassium_ore, "PotassiumOre");
+        GameRegistry.registerBlock(cesium_ore, "CesiumOre");
+        OreDictionary.registerOre("ingotCesium", cesium_ore);
         OreDictionary.registerOre("ingotTin", tin_ore);
         OreDictionary.registerOre("ingotLead", lead_ore);
         OreDictionary.registerOre("ingotGalium", galium_ore);
@@ -129,6 +141,8 @@ public class UltimateTools {
         galium_ingot = new ItemIngotGeneric("galium_ingot");
         sodium_ingot = new ItemIngotGeneric("sodium_ingot");
         potassium_ingot = new ItemIngotGeneric("potassium_ingot");
+        cesium_ingot = new ItemIngotGeneric("cesium_ingot");
+        GameRegistry.registerItem(cesium_ingot, "CesiumIngot");
         GameRegistry.registerItem(tin_ingot, "TinIngot");
         GameRegistry.registerItem(lead_ingot, "LeadIngot");
         GameRegistry.registerItem(galium_ingot, "GaliumIngot");
@@ -182,6 +196,18 @@ public class UltimateTools {
         GameRegistry.registerItem(sodium_axe, "SodiumAxe");
         GameRegistry.registerItem(sodium_hoe, "SodiumHoe");
         GameRegistry.registerItem(sodium_shovel, "SodiumShovel");
+
+        // cesium tools
+        cesium_pickaxe = new ItemPickaxeGeneric(cesium, "cesium_pickaxe");
+        cesium_sword = new ItemSwordGeneric(cesium, "cesium_sword");
+        cesium_axe = new ItemAxeGeneric(cesium, "cesium_axe");
+        cesium_hoe = new ItemHoeGeneric(cesium, "cesium_hoe");
+        cesium_shovel = new ItemShovelGeneric(cesium, "Cesium_shovel");
+        GameRegistry.registerItem(cesium_pickaxe, "CesiumPickaxe");
+        GameRegistry.registerItem(cesium_sword, "CesiumSword");
+        GameRegistry.registerItem(cesium_axe, "CesiumAxe");
+        GameRegistry.registerItem(cesium_hoe, "CesiumHoe");
+        GameRegistry.registerItem(cesium_shovel, "CesiumShovel");
 
         // Potassium tools
         potassium_pickaxe = new ItemPickaxeGeneric(potassium, "potassium_pickaxe");
