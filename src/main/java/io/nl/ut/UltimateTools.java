@@ -38,7 +38,7 @@ public class UltimateTools {
     public static Block cesium_ore;
 
     
-    // Sodium Tools
+    // Cesiun Tools
     public static Item cesium_ingot;
     public static Item cesium_sword;
     public static Item cesium_pickaxe;
@@ -105,14 +105,24 @@ public class UltimateTools {
     UltimateToolsOreHandler handler = new UltimateToolsOreHandler();
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event) throws IOException {
+    public void preInit(FMLPreInitializationEvent event) {
         //Check for an update
-        String[] ver_info = UpdateChecker.getUpdateJson();
-        if(VERSION.equals(ver_info[0])) {
+        try {
+            String[] ver_info = UpdateChecker.getUpdateJson();
+            if(VERSION.equals(ver_info[0])) {
                 ;
-        } else {
-                UpdateGetter.getUpdate(ver_info[0]);
+            } else {
+                try{
+                    UpdateGetter.getUpdate(ver_info[0]);
+                } catch(Exception e) {
+                    ; //do nothing
+                }
+                
+            }
+        } catch(IOException e1) {
+            ; //do nothing
         }
+       
         
         // Ores
         lead_ore = new BlockOreGeneric("lead_ore", 1, 3, 7);
