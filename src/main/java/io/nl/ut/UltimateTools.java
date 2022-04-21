@@ -115,12 +115,12 @@ public class UltimateTools {
         }
         
         // Ores
-        lead_ore = new BlockOreGeneric("lead_ore", 1, 3F, 7F);
-        tin_ore = new BlockOreGeneric("tin_ore", 1, 3F, 7F);
-        galium_ore = new BlockOreGeneric("galium_ore", 1, 3F, 7F);
-        sodium_ore = new BlockOreGeneric("sodium_ore", 2, 3F, 7F);
-        potassium_ore = new BlockOreGeneric("potassium_ore", 2, 3F, 7F);
-        cesium_ore = new BlockOreGeneric("cesium_ore", 2, 3F, 7F);
+        lead_ore = new BlockOreGeneric("lead_ore", 1, 3, 7);
+        tin_ore = new BlockOreGeneric("tin_ore", 1, 3, 7);
+        galium_ore = new BlockOreGeneric("galium_ore", 1, 3, 7);
+        sodium_ore = new BlockOreGeneric("sodium_ore", 2, 3, 7);
+        potassium_ore = new BlockOreGeneric("potassium_ore", 2, 3, 7);
+        cesium_ore = new BlockOreGeneric("cesium_ore", 2, 3, 7);
 
         GameRegistry.registerBlock(lead_ore, "LeadOre");
         GameRegistry.registerBlock(tin_ore, "TinOre");
