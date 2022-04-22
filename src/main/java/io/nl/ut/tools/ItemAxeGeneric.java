@@ -8,7 +8,7 @@ public class ItemAxeGeneric extends ItemAxe {
 	public ItemAxeGeneric(ToolMaterial material, String name) {
 		super(material);
 		this.setUnlocalizedName(UltimateTools.MODID + "_" + name);
-		this.setTextureName(UltimateTools.MODID + ":" + name);
+		this.setTextureName(UltimateTools.MODID + ":" +  name);
 		this.canRepair = true;
 		this.setCreativeTab(UltimateTools.tabAxes);
 	

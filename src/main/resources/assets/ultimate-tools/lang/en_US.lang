@@ -28,17 +28,27 @@ item.ultimate-tools_potassium_sword.name=Potassium Sword
 item.ultimate-tools_potassium_hoe.name=Potassium Hoe
 item.ultimate-tools_potassium_shovel.name=Potassium Shovel
 
+item.ultimate-tools_cesium_pickaxe.name=Cesium Pickaxe
+item.ultimate-tools_cesium_axe.name=Cesium Axe
+item.ultimate-tools_cesium_sword.name=Cesium Sword
+item.ultimate-tools_cesium_hoe.name=Cesium Hoe
+item.ultimate-tools_cesium_shovel.name=Cesium Shovel
+
 item.ultimate-tools_lead_ingot.name=Lead Ingot
 item.ultimate-tools_tin_ingot.name=Tin Ingot
 item.ultimate-tools_galium_ingot.name=Galium Ingot
 item.ultimate-tools_sodium_ingot.name=Sodium Ingot
 item.ultimate-tools_potassium_ingot.name=Potassium Ingot
+item.ultimate-tools_galium_ingot.name=Galiun Ingot
+item.ultimate-tools_cesium_ingot.name=Cesium Ingot
 
 tile.ultimate-tools_lead_ore.name=Lead Ore
 tile.ultimate-tools_tin_ore.name=Tin Ore
 tile.ultitmate-tools_galium_ore.name=Galium Ore
 tile.ultimate-tools_sodium_ore.name=Sodium Ore
 tile.ultimate-tools_potassium_ore.name=Potassium Ore
+tile.ultimate-tools_galium_ore.name=Galiun Ore
+tile.ultimate-tools_cesium_ore.name=Cesium Ore
 
 itemGroup.UltimateTools Swords=Ultimate Tools Swords
 itemGroup.UltimateTools Pickaxes=Ultimate Tools Pickaxes

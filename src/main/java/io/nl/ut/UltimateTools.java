@@ -27,7 +27,7 @@ import io.nl.ut.items.*;
 @Mod(modid = UltimateTools.MODID, version = UltimateTools.VERSION, name = UltimateTools.NAME, useMetadata = true)
 public class UltimateTools {
     public static final String MODID = "ultimate-tools";
-    public static final String VERSION = "1.7.10-Stable-0.2.3";
+    public static final String VERSION = "1.7.10-Stable-0.2.7a";
     public static final String NAME = "Ultimate Tools";
 
     // Ores
